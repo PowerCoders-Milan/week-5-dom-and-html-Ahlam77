@@ -1,4 +1,4 @@
 function removecolor() {
-    var myobj = document.getElementById("colorSelect");
-    myobj.remove();
+    var mycolor = document.getElementById("colorSelect");
+    mycolor.remove();
 }
