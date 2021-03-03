@@ -1,8 +1,13 @@
 function getAttributes() {
-    var target = document.getElementById("pwcdr").getAttribute("taregt");
-    var hreflang = document.getElementById("pwcdr").getAttribute("hreflang");
-    var rel = document.getElementById("pwcdr").getAttribute("rel");
-    document.getElementById("pwcdr").innerHTML =` The value of target attribute of the link is: ${e}`;
-    document.getElementById("pwcdr").innerHTML = `The value of hreflang attribute of the link is: ${c}`;
-    document.getElementById("pwcdr").innerHTML = `The value of rel attribute of the link is: ${d}`;
-    }   
+  
+    var a = document.getElementById("pwcdr").href;
+    alert('The value of the href attribute of the link is : '+ a);
+    var b = document.getElementById("pwcdr").hreflang;   
+    alert('The value of the hreflang attribute of the link is : '+ b);
+    var c = document.getElementById("pwcdr").rel; 
+     alert('The value of the rel attribute of the link is : '+ c);
+    var d = document.getElementById("pwcdr").target; 
+     alert('The value of the taget attribute of the link is : '+ d);
+    var e = document.getElementById("pwcdr").type; 
+     alert('The value of the type attribute of the link is : '+ e);  
+   }
